@@ -5,7 +5,11 @@
   "projects": {
     "ProInt_HugoSanchez": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,10 +28,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "ProInt_HugoSanchez/node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "ProInt_HugoSanchez/node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
@@ -100,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "bc636b4b-3063-4c1a-8ba2-635e4a9d7cd3"
   }
 }
