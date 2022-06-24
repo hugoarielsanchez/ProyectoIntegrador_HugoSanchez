@@ -7,27 +7,27 @@ div{
 }
 
 /*Estilo de foto de perfil*/
-@media(min-width: 576px){
+@media (min-width: 576px){
     #fotoPerfil{
         position: absolute;
-        border-radius: 80%;
         width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
         left: 2%;
         top: 600px;
     }
 }
-@media(max-width: 575px){
+@media (max-width: 575px){
     #fotoPerfil{
         position: absolute;
         border-radius: 80%;
         width: 30%;
         left: 33%;
-        top: 630px;
+        top: 650px;
     }
 }
 /*Etiqueta nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 30%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
