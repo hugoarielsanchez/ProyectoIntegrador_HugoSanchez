@@ -14,7 +14,9 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 2%;
-        top: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width: 575px){
