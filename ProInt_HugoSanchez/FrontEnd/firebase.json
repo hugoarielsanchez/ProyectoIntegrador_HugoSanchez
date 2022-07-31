@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/portfoliohsanchez",
+    "public": "dist/pro-int-hugo-sanchez",
     "ignore": [
       "firebase.json",
       "**/.*",
